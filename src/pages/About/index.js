@@ -8,6 +8,7 @@ const About = () => {
 	const [navValue, setNavValue] = useState('about');
 	const [viewComponent, setViewComponent] = useState(<IronTemple />);
 
+	// Handles/updates nav highlight for active nav component
 	useEffect(() => {
 		let nav = document.getElementById('about-nav');
 		for (const child of nav.children) {
@@ -17,6 +18,7 @@ const About = () => {
 		document.getElementById(`nav-${navValue}`).classList.add('active-nav');
 	}, [navValue]);
 
+	// Handles component change on click of nav value
 	const navHandler = (navVal) => {
 		if (navVal !== navValue) {
 			setNavValue(navVal);
