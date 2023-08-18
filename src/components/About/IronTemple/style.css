@@ -1,0 +1,33 @@
+#family-img {
+	width: 350px;
+	border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+	#about-iron-temple div {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		margin: 1rem 2rem;
+		gap: 1rem;
+	}
+
+	#about-iron-temple hr {
+		margin: 1rem 2rem;
+	}
+
+	#about-buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		justify-content: center;
+	}
+
+	#about-buttons button {
+		font-size: 1rem;
+		border-radius: 18px;
+		border: solid black 1px;
+		width: 100px;
+		padding: 6px;
+	}
+}
