@@ -37,11 +37,13 @@ const About = () => {
 				<h3 id="nav-about" onClick={() => navHandler('about')}>
 					About
 				</h3>
+				<h3>•</h3>
 				<h3 id="nav-team" onClick={() => navHandler('team')}>
-					Our Team
+					Team
 				</h3>
+				<h3>•</h3>
 				<h3 id="nav-facilities" onClick={() => navHandler('facilities')}>
-					Our Facilities
+					Facilities
 				</h3>
 			</nav>
 			{viewComponent}
