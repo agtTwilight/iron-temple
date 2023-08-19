@@ -4,6 +4,7 @@ import TeamMemberProfile from '../../TeamMemberProfile';
 import './style.css';
 
 export const Team = () => {
+	// Example of team member data format necssary for TeamMemberProfile component
 	const testData = [
 		{
 			img: testimg,
@@ -30,6 +31,7 @@ export const Team = () => {
 	return (
 		<div>
 			<h1>Our Team</h1>
+			{/* Example of how data must be injected into TeamMemberProfile component for proper rendering */}
 			{testData.map((teamMember) => {
 				return (
 					<TeamMemberProfile
