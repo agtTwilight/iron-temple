@@ -19,7 +19,7 @@
 
 @media (min-width: 769px) {
 	.team-member {
-		margin: 10rem;
+		margin: 5rem 10rem;
 		display: flex;
 		gap: 2rem;
 	}

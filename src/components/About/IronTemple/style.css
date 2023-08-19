@@ -1,3 +1,7 @@
+#about-iron-temple div {
+	text-align: start;
+}
+
 #family-img {
 	width: 350px;
 	border-radius: 16px;
@@ -29,5 +33,14 @@
 		border: solid black 1px;
 		width: 100px;
 		padding: 6px;
+	}
+}
+
+@media (min-width: 769px) {
+	#about-iron-temple div {
+		margin: 5rem 10rem;
+		display: flex;
+		align-items: center;
+		gap: 2rem;
 	}
 }
