@@ -33,6 +33,7 @@ const About = () => {
 	};
 	return (
 		<div>
+			<hr></hr>
 			<nav id="about-nav">
 				<h3 id="nav-about" onClick={() => navHandler('about')}>
 					About
