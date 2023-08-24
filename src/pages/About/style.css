@@ -1,0 +1,9 @@
+.active-nav {
+	border-bottom: solid red 1px;
+}
+
+#about-nav {
+	display: flex;
+	justify-content: center;
+	gap: 0.75rem;
+}

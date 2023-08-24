@@ -1,0 +1,26 @@
+.team-member {
+	text-align: start;
+}
+
+.team-member-image {
+	width: 350px;
+}
+
+@media (max-width: 768px) {
+	.team-member {
+		margin: 4rem 2rem;
+	}
+
+	.team-member-image {
+		margin: 0;
+		width: 100%;
+	}
+}
+
+@media (min-width: 769px) {
+	.team-member {
+		margin: 5rem 10rem;
+		display: flex;
+		gap: 2rem;
+	}
+}
