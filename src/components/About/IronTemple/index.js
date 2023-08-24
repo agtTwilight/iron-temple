@@ -21,7 +21,7 @@ export const IronTemple = () => {
 				<img
 					id="family-img"
 					src={family}
-					alt="Waskar (the owner of Iron Temple) with his wife and kid."
+					alt="Wascar (the owner of Iron Temple) with his wife and kid."
 				></img>
 			</div>
 			<hr></hr>
