@@ -23,7 +23,9 @@ const Home = () => {
 							publishing software like Aldus PageMaker including versions of
 							Lorem Ipsum.
 						</p>
-						<button id="join-btn">Join now!</button>
+						<a href="/memberships">
+							<button id="join-btn">Join now!</button>
+						</a>
 					</Col>
 					<Col>
 						<img
