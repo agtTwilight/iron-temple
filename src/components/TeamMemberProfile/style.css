@@ -6,6 +6,10 @@
 	width: 350px;
 }
 
+.team-member-info {
+	margin: 0.5rem 0;
+}
+
 @media (max-width: 768px) {
 	.team-member {
 		margin: 4rem 2rem;
