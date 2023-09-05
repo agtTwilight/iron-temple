@@ -1,0 +1,74 @@
+#contact-top h2 {
+	margin: 0;
+	margin-bottom: 2rem;
+}
+
+#contact-inputs {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 0.5rem;
+}
+
+#contact-inputs > *,
+#contact-btn {
+	border: solid 1px grey;
+	padding: 8px;
+	border-radius: 8px;
+	resize: none;
+	outline: none;
+
+	color: lightgrey;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1rem;
+
+	transition: 0.25s ease-in-out;
+}
+
+#contact-inputs > *::placeholder {
+	color: grey;
+}
+
+#contact-btn {
+	color: grey;
+}
+
+#contact-inputs > *:focus {
+	border: solid 1px lightgrey;
+}
+
+#contact-btn {
+	width: 75px;
+	border-radius: 16px;
+}
+
+@media (max-width: 999px) {
+	#form-ref {
+		width: 100%;
+		text-align: center;
+		margin: 0 2rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	#form-ref {
+		width: 50%;
+		text-align: center;
+	}
+
+	#contact-btn:hover {
+		border: solid 1px lightgrey;
+		color: lightgrey;
+		cursor: pointer;
+	}
+
+	#contact-inputs input:hover,
+	#contact-inputs textarea:hover {
+		border: solid 1px lightgrey;
+	}
+}

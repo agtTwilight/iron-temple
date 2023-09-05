@@ -1,39 +1,45 @@
-// import React, { useRef } from "react";
-// import emailjs from '@emailjs/browser';
+import React from 'react';
+import Contact from '../Contact';
+// import facebook from './assets/facebook.png';
+import './style.css';
 
-// export const Footer = () => {
-//     const form = useRef();
+export const Footer = () => {
+	return (
+		<footer id="footer-control" className="snap-page-vertical">
+			<section id="footer">
+				<section id="footer-left">
+					<h2>Address</h2>
+					<a href="https://www.google.com/search?q=iron+temple+gym+washington">
+						<p>
+							14205 Meridian Ave E <br></br>Puyallup, WA 98373
+						</p>
+					</a>
+					<h2>Hours</h2>
+					<p>
+						<strong>Monday - Sunday</strong>
+						<br></br>XX:XX AM - XX-XX PM
+					</p>
+					<h2>Phone</h2>
+					<p>(206) XXX-XXXX</p>
+					<a
+						href="https://www.facebook.com/luuscafe/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						{/* <img
+							id="facebook-footer"
+							src={facebook}
+							alt="the facebook logo"
+						></img> */}
+					</a>
+				</section>
+				<section id="footer-right">
+					<Contact />
+				</section>
+				<hr></hr>
+			</section>
+		</footer>
+	);
+};
 
-//     const sendEmail = (e) => {
-//         e.preventDefault();
-
-//         emailjs.sendForm('service_one4vdd', 'template_tniigpf', form.current, 'JxncV2Nalp39tFTfo')
-//             .then((result) => {
-//                 alert("Your email has been sent!");
-//                 e.target.reset();
-//                 console.log(result.text);
-//             }, (error) => {
-//                 console.log(error.text);
-//             });
-//     };
-
-//     return (
-//         <section className="contact-container">
-//             <form className="contact-me" ref={form} onSubmit={sendEmail}>
-
-//                 <label className="contact-label">Full Name:</label>
-//                 <input className="contact-inputs" type="text" name="user_name" />
-
-//                 <label className="contact-label">Email:</label>
-//                 <input className="contact-inputs" type="email" name="user_email" />
-
-//                 <label className="contact-label">Message:</label>
-//                 <textarea className="contact-inputs" name="message" />
-
-//                 <input className="send-btn" type="submit" value="Send" />
-//             </form>
-//         </section>
-//     );
-// };
-
-// export default Footer;
+export default Footer;

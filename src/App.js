@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer';
 import About from './pages/About';
 import Home from './pages/Home';
 
@@ -15,6 +16,7 @@ function App() {
 					<Route path="/store"></Route>
 				</Routes>
 			</BrowserRouter>
+			<Footer />
 		</div>
 	);
 }
