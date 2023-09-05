@@ -3,6 +3,10 @@
 	transition: 0.5s ease-in-out;
 }
 
+#about-container {
+	height: fit-content;
+}
+
 #about-nav {
 	display: flex;
 	justify-content: center;

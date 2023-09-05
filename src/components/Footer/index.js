@@ -5,11 +5,15 @@ import './style.css';
 
 export const Footer = () => {
 	return (
-		<footer id="footer-control" className="snap-page-vertical">
+		<footer id="footer-control">
 			<section id="footer">
 				<section id="footer-left">
 					<h2>Address</h2>
-					<a href="https://www.google.com/search?q=iron+temple+gym+washington">
+					<a
+						href="https://www.google.com/search?q=the+iron+temple+gym"
+						target="_blank"
+						rel="noreferrer"
+					>
 						<p>
 							14205 Meridian Ave E <br></br>Puyallup, WA 98373
 						</p>

@@ -54,10 +54,8 @@ footer a {
 }
 
 @media (max-width: 999px) {
-	#footer-control {
-		height: 150vh;
-	}
 	#footer {
+		margin: 2.5rem 0;
 		height: 100%;
 		width: 100%;
 		flex-direction: column-reverse;
