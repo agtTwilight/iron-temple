@@ -1,9 +1,15 @@
 #header-container {
-    background-color: #01090b !important;
-    color: #f2f7f7;
+	background-color: #01090b !important;
+	color: #f2f7f7;
 }
 
 #navbar-container {
-    background-color: #01090b;
-    color: #f2f7f7;
+	background-color: #01090b;
+	color: #f2f7f7;
+}
+
+@media (max-width: 990px) {
+	.navbar-collapse {
+		margin-top: 3rem !important;
+	}
 }
