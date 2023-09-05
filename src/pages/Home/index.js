@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import Footer from '../../components/Footer';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -24,7 +23,7 @@ const Home = () => {
 							publishing software like Aldus PageMaker including versions of
 							Lorem Ipsum.
 						</p>
-						<button>Join now!</button>
+						<button id="join-btn">Join now!</button>
 					</Col>
 					<Col>
 						<img
@@ -35,7 +34,6 @@ const Home = () => {
 					</Col>
 				</Row>
 			</Container>
-			{/* <Footer /> */}
 		</div>
 	);
 };
