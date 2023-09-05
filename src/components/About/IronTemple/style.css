@@ -35,4 +35,8 @@
 		align-items: center;
 		gap: 2rem;
 	}
+
+	#about-iron-temple hr {
+		display: none;
+	}
 }
