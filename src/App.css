@@ -11,10 +11,17 @@ button:hover {
 	box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
 
+/* @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+} */
+
 .App {
 	text-align: center;
 }
-s .App-logo {
+
+.App-logo {
 	height: 40vmin;
 	pointer-events: none;
 }
