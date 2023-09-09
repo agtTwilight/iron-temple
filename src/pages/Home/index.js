@@ -11,17 +11,21 @@ const Home = () => {
 			<Container id="home-content">
 				<Row>
 					<Col id="welcome-statement">
-						<p>
-							lorem Ipsum is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s, when an unknown printer took a galley of
-							type and scrambled it to make a type specimen book. It has
-							survived not only five centuries, but also the leap into
-							electronic typesetting, remaining essentially unchanged. It was
-							popularised in the 1960s with the release of Letraset sheets
-							containing Lorem Ipsum passages, and more recently with desktop
-							publishing software like Aldus PageMaker including versions of
-							Lorem Ipsum.
+						<p id="welcome-font">
+							<span id="welcome-text">Welcome to Iron Temple Gym!</span>
+							<br></br>
+							<br></br>
+							We are thrilled to welcome all to Iron Temple and are excited to embark on a journey of health and fitness together! Our mission is simple: To create a unique community of like-minded individuals hungry to improve!
+							<br></br>
+							{/* <br></br> */}
+							Here at Iron Temple, you're not just joining a gym; you are joining a supportive and inspiring family that is dedicated to your success.
+							{/* Whether you are a seasoned fitness enthusiast or just starting on your fitness journey, our doors are wide open to all who seek a path to improvement. */}
+							<br></br>
+							{/* <br></br> */}
+							At Iron Temple, you'll find the tools, the guidance, and the camaraderie needed to reach your goals. We believe that together, as a community, we can achieve more than we ever could alone. Join us in this exciting adventure towards a healthier, happier you!
+							<br></br>
+							<br></br>
+							Welcome to Iron Temple, let's make strides towards greatness together!
 						</p>
 						<a href="/memberships">
 							<button id="join-btn">Join now!</button>
