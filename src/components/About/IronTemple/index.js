@@ -8,15 +8,13 @@ export const IronTemple = () => {
 			<h1>Iron Temple</h1>
 			<div>
 				<p>
-					lorem Ipsum is simply dummy text of the printing and typesetting
-					industry. Lorem Ipsum has been the industry's standard dummy text ever
-					since the 1500s, when an unknown printer took a galley of type and
-					scrambled it to make a type specimen book. It has survived not only
-					five centuries, but also the leap into electronic typesetting,
-					remaining essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum passages, and
-					more recently with desktop publishing software like Aldus PageMaker
-					including versions of Lorem Ipsum.
+					Located in Puyallup, Washington, our privately owned gym offers state-of-the-art equipment. We are the ultimate destinatino for bodybuilding, powerlifting, or general health and fitness. From seasoned athletes to beginners, everyone is welcome here.
+					<br></br>
+					With expert trainers, a vibrant fitness community, and a commitment to cleanliness and inclusivity, Iron Temple Gym is the place where your fitness journey transforms into greatness.
+					<br></br>
+					Join us today and unleash your potential in a safe, inspiring environment.
+					<br></br>
+					Welcome to the Iron Temple family!
 				</p>
 				<img
 					id="family-img"
