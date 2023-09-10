@@ -1,28 +1,32 @@
 footer {
-	position: relative;
-	background-color: var(--gradientpurple);
-	align-items: center;
+    position: relative;
+    background-color: var(--gradientpurple);
+    align-items: center;
 }
 
 footer a {
-	text-decoration: none;
-	color: white;
-	margin: 0;
+    text-decoration: none;
+    color: white;
+    margin: 0;
 }
 
 #footer {
-	position: relative;
-	color: var(--darkgradientpurple);
-	display: flex;
+    position: relative;
+    color: var(--darkgradientpurple);
+    display: flex;
 }
 
 #footer-left p {
-	margin-bottom: 2rem;
-	margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
 }
 
 #footer-left h2 {
-	margin: 0;
+    margin: 0;
+}
+
+.footer-content {
+    font-size: 1.25rem;
 }
 
 /* #facebook-footer {
@@ -36,51 +40,51 @@ footer a {
 } */
 
 #footer-right {
-	position: relative;
-	display: flex;
-	height: 100%;
-	justify-content: right;
-	align-items: center;
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
 }
 
 #footer hr {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 90%;
-	border: none;
-	border-top: solid 2px var(--darkgradientpurple);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    border: none;
+    border-top: solid 2px var(--darkgradientpurple);
 }
 
 @media (max-width: 999px) {
-	#footer {
-		margin: 2.5rem 0;
-		height: 100%;
-		width: 100%;
-		flex-direction: column-reverse;
-	}
+    #footer {
+        margin: 2.5rem 0;
+        height: 100%;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
 
-	#footer-left {
-		margin: 2rem;
-	}
+    #footer-left {
+        margin: 2rem;
+    }
 
-	#footer-right {
-		width: 100%;
-	}
+    #footer-right {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1000px) {
-	#footer {
-		margin: 3rem;
-		padding: 2rem;
-		justify-content: space-evenly;
-		align-items: center;
-		height: 50%;
-		width: calc(100% - 6rem);
-	}
+    #footer {
+        margin: 3rem;
+        padding: 2rem;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50%;
+        width: calc(100% - 6rem);
+    }
 
-	#footer-right {
-		width: 50%;
-	}
+    #footer-right {
+        width: 50%;
+    }
 }
