@@ -1,5 +1,9 @@
 import React from 'react';
-import testimg from '../../../assets/images/eleiko-bar.jpg';
+import wascarAndCydnee from '../../../assets/images/wascar+cydnee-staff.jpg';
+import lindsay from '../../../assets/images/lindsay-staff.jpg';
+import austin from '../../../assets/images/austin-staff.jpg';
+import meghan from '../../../assets/images/meghan-staff.jpg';
+
 import TeamMemberProfile from '../../TeamMemberProfile';
 import './style.css';
 
@@ -7,25 +11,31 @@ export const Team = () => {
 	// Example of team member data format necssary for TeamMemberProfile component
 	const testData = [
 		{
-			img: testimg,
-			name: 'Name1',
-			position: 'Head Coach',
+			img: wascarAndCydnee,
+			name: 'Wascar Carpio & Cydnee Carpio',
+			position: 'Owners',
 			about:
-				'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+				'Bio coming soon!',
 		},
 		{
-			img: testimg,
-			name: 'Name2',
-			position: 'Head Coach',
+			img: lindsay,
+			name: 'Lindsay Richman',
+			position: 'General Manager',
 			about:
-				'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+				'Bio coming soon!',
 		},
 		{
-			img: testimg,
-			name: 'Name3',
-			position: 'Head Coach',
+			img: austin,
+			name: 'Austin Flynn',
+			position: 'Media',
+			about: 'Bio coming soon!'
+		},
+		{
+			img: meghan,
+			name: 'Dr. Meghan Sak-Ocbina',
+			position: 'Physical Therapist',
 			about:
-				'Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum',
+				'Bio coming soon!',
 		},
 	];
 	return (

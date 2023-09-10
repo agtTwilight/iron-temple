@@ -6,13 +6,17 @@
     color: #f2f7f7;
 }
 
+.carousel-indicators {
+    display: none;
+}
+
 #home-content {
     display: flex;
     justify-content: space-between;
     margin-top: 5%;
 }
 
-#welcome-img {
+.carousel-img-home {
     width: 450px;
     border-radius: 16px;
 }
@@ -25,11 +29,11 @@
 }
 
 #welcome-font {
-    font-size: 1.05rem;
+    font-size: 1.25rem;
 }
 
 #welcome-text {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 #welcome-image {

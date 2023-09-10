@@ -14,17 +14,19 @@ export const Footer = () => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<p>
+						<p className="footer-content">
 							14205 Meridian Ave E <br></br>Puyallup, WA 98373
 						</p>
 					</a>
 					<h2>Hours</h2>
-					<p>
+					<p className="footer-content">
 						Monday - Sunday
-						<br></br>XX:XX AM - XX-XX PM
+						<br></br>10:00 AM - 08:00 PM
+						<br></br><br></br>Members
+						<br></br>24/7 Access
 					</p>
-					<h2>Phone</h2>
-					<p>(206) XXX-XXXX</p>
+					{/* <h2>Phone</h2>
+					<p className="footer-content">(206) XXX-XXXX</p> */}
 					<a
 						href="https://www.facebook.com/luuscafe/"
 						target="_blank"
