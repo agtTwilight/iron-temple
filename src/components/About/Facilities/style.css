@@ -1,0 +1,12 @@
+.equipment-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.75rem;
+}
+
+ul {
+    text-align: left;
+}
+li {
+    font-size: 1.25rem;
+}

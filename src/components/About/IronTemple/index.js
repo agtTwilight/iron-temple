@@ -37,14 +37,16 @@ export const IronTemple = () => {
 			</Container>
 			<hr></hr>
 			<h2>What next?</h2>
-			<p>
+			<p id="next-text">
 				Find out about our team and facilities, or sign up for a membership
 				today!
 			</p>
 			<section id="about-buttons">
 				<button>Team</button>
 				<button>Facility</button>
-				<button>Join Now!</button>
+				<a href="https://irontemple.gymmasteronline.com/portal/signup?session=.eJxNzEsKgCAQANC7zDrEmcZPXkYkK4RSKRdFdPdo1_7xbhhLbtPZ_Fi2GvKVIjjqIFUfYtzBASuhSaCVgqSCDo4W5nktS8rTWcGhHhgtomGhDRk7_MWXMRJj_7zXiR-T.ZPuGIg.6jWxN_EfrzfcK5J9I5rS81CAho8" target='_blank'>
+					<button>Join now!</button>
+				</a>
 			</section>
 		</div>
 	);

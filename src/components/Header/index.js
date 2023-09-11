@@ -13,7 +13,7 @@ function Header() {
                     <Nav className="me-auto">
                         <Nav.Link className='nav-link' href="/about">About</Nav.Link>
                         <Nav.Link className='nav-link' href="/memberships">Memberships</Nav.Link>
-                        <Nav.Link className='nav-link' href="/store">Store</Nav.Link>
+                        {/* <Nav.Link className='nav-link' href="/store">Store</Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

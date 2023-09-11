@@ -27,6 +27,10 @@
     justify-content: center;
 }
 
+#next-text {
+    font-size: 1.15rem;
+}
+
 /* @media (max-width: 768px) {
     #about-iron-temple div {
         display: flex;
