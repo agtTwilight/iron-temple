@@ -43,7 +43,7 @@ const About = () => {
 				</h3>
 				<h3>•</h3>
 				<h3 id="nav-facilities" onClick={() => navHandler('facilities')}>
-					Facility
+					Facilities
 				</h3>
 			</nav>
 			{viewComponent}

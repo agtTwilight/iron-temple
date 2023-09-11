@@ -23,6 +23,11 @@ body {
 	flex-direction: column;
 }
 
+.App * {
+	/* color: rgb(237, 208, 169); */
+	color: #f2f7f7;
+}
+
 .App-logo {
 	height: 40vmin;
 	pointer-events: none;
