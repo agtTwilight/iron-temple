@@ -15,7 +15,7 @@ export const Team = () => {
 			name: 'Wascar Carpio & Cydnee Carpio',
 			position: 'Owners',
 			about:
-				'Bio coming soon!',
+				`Wascar is the 2023 IPF World Championo powerlifter for the 130lb/59kg weight class. He currently holds the second highest total ever done in the world for that weight class. He has been powerlifting for 3 years now and has developed a passion for powerlifting and health and fitness. He is married to his beautiful wife, Cydnee, and now has a boy who is 2 years old! Outside of powerlifting, Wascar loves the outdoors which includes hiking, camping, and walks!`,
 		},
 		{
 			img: lindsay,
@@ -31,14 +31,14 @@ export const Team = () => {
 			img: austin,
 			name: 'Austin Flynn',
 			position: 'Media',
-			about: 'Bio coming soon!'
+			about: `You've probably seen him either with a camera, barbell, or a tool in his hands, maybe even all three at once! Austin has been in the powerlifting community since 2016, when his lifting career began at the YMCA. Heh has been professionally capturing photos for rjust over 5 years and working on videography for almost 2 years. He has always been a huge fan of seeing people win, so documenting those moments was a clear choice. Happily engaged and a fur dad of 4, Austin spends his time developing his craft, finding new places to eat, and spending time with his loved ones! Anytime you need a resource to capture and create the next level of content for your social media, stop by and have a chat with him or send him a DM on instagram!`
 		},
 		{
 			img: meghan,
 			name: 'Dr. Meghan Sak-Ocbina',
 			position: 'Physical Therapist',
 			about:
-				'Meghan is a board-certified Physical Therapist, Athletic Trainer, Certified Strength & Conditioning Specialist, and the owner of Impetus Movement and Rehab, PLLC. Dr. Meghan received her Doctorate of Physical Therapy from Baylor Univeristy and Masters of Athletic Training from the University of Arkansas. Meghan has always had a movement and load-focused approach to rehabilitation and firmly believes rehab should be considered "training with injury". Her own movement practice is influenced by sports performance, corrective exercise, bodybuilding, powerlifting, hardstyle kettlebell training, and calisthenics. She has a strong passion for educating and empowering her clients to feel strong, capable, and confident in their bodies throughout their lifespan.',
+				`Meghan is a board-certified Physical Therapist, Athletic Trainer, Certified Strength & Conditioning Specialist, and the owner of Impetus Movement and Rehab, PLLC. Dr. Meghan received her Doctorate of Physical Therapy from Baylor Univeristy and Masters of Athletic Training from the University of Arkansas. Meghan has always had a movement and load-focused approach to rehabilitation and firmly believes rehab should be considered "training with injury". Her own movement practice is influenced by sports performance, corrective exercise, bodybuilding, powerlifting, hardstyle kettlebell training, and calisthenics. She has a strong passion for educating and empowering her clients to feel strong, capable, and confident in their bodies throughout their lifespan.`,
 		},
 	];
 	return (
