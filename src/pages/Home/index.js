@@ -4,16 +4,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import ironTempleLogo from '../../assets/images/Iron-temple-PNG-with-border.png';
-import eleikoBar from '../../assets/images/eleiko-bar.jpg';
-import eleikoBench from '../../assets/images/eleiko-pad.jpg';
-import eleikoPlates from '../../assets/images/eleiko-plates.jpg';
-import eleikoRack from '../../assets/images/eleiko-rack.jpg';
+import tourVid from '../../assets/videos/gym-tour.mp4'
 import './style.css';
 
 const Home = () => {
 	return (
 		<div>
+			<video src={tourVid} />
 			<Container id="home-content">
 				<Row>
 					<Col id="welcome-statement">
@@ -49,38 +46,6 @@ const Home = () => {
 						>
 							<button id="join-btn">Join now!</button>
 						</a>
-					</Col>
-					<Col>
-						<Carousel fade>
-							<CarouselItem>
-								<img
-									className="carousel-img-home"
-									src={eleikoPlates}
-									alt="25 kilogram calibrated weight on a weight tree."
-								></img>
-							</CarouselItem>
-							<CarouselItem>
-								<img
-									className="carousel-img-home"
-									src={eleikoRack}
-									alt="Side view image of the Eleiko combo rack."
-								></img>
-							</CarouselItem>
-							<CarouselItem>
-								<img
-									className="carousel-img-home"
-									src={eleikoBar}
-									alt="Image of the barbell barrel."
-								></img>
-							</CarouselItem>
-							<CarouselItem>
-								<img
-									className="carousel-img-home"
-									src={eleikoBench}
-									alt="Image of the bench pad on the Eleiko combo rack."
-								></img>
-							</CarouselItem>
-						</Carousel>
 					</Col>
 				</Row>
 			</Container>
