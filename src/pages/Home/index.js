@@ -10,7 +10,8 @@ import './style.css';
 const Home = () => {
 	return (
 		<div>
-			<video src={tourVid} />
+			<div className="overlay"></div>
+			<video src={tourVid} autoPlay loop muted />
 			<Container id="home-content">
 				<Row>
 					<Col id="welcome-statement">
