@@ -1,9 +1,10 @@
 button {
-    min-width: 100px;
-    padding: 6px;
+    min-width: 120px;
+    padding: 5%;
     border: solid 1px white;
     border-radius: 18px !important;
     transition: 0.5s ease;
+    font-size: 1.25rem;
 }
 
 button:hover {
@@ -24,8 +25,8 @@ body {
 }
 
 .App * {
-    /* color: rgb(237, 208, 169); */
-    color: #f2f7f7;
+    color: rgb(255, 252, 247);
+    /* color: #f9ffff; */
 }
 
 .App-logo {
@@ -40,7 +41,7 @@ body {
 }
 
 .App-header {
-    background-color: #282c34;
+    background-color: #01090b;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

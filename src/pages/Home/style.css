@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #01090b; */
-    color: #deedec;
 }
 
 video {
@@ -12,14 +10,19 @@ video {
     object-fit: cover;
 }
 
+.background {
+    background-color: #01090b;
+}
+
 .overlay {
     position: absolute;
-    top: 7%;
+    top: 4rem;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: rgba(0, 0, 0, 0.45);
 }
+
 #home-content {
     position: absolute;
     width: 100%;

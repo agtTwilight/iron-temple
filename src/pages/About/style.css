@@ -1,15 +1,16 @@
 .active-nav {
-	text-shadow: 0 0 15px rgba(255, 255, 255);
-	transition: 0.5s ease-in-out;
+    text-shadow: 0 0 15px rgba(255, 255, 255);
+    transition: 0.5s ease-in-out;
 }
 
 #about-container {
-	height: fit-content;
+    height: fit-content;
+    background-color: #01090b;
 }
 
 #about-nav {
-	margin: 2rem 0;
-	display: flex;
-	justify-content: center;
-	gap: 0.75rem;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
 }

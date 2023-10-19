@@ -24,20 +24,17 @@ export const Team = () => {
 			name: 'Lindsay Richman',
 			position: 'General Manager',
 			about:
-				`You may have seen Lindsay leading the team of spotters and loaders for Washington State Powerlifting meets, or maybe even saw her give you a red light while competing.  
-				Lindsay has been powerlifting for about 9 years. She loves everything about powerlifting - from the community to the volunteering. 
-				If you don't see her at the gym, she is probably at home baking something. Married to her husband, Curt, for 13 years, she has 3 daughters: Remi, Erin, and Lily!`,
+				`You may have seen Lindsay leading the team of spotters and loaders for Washington State Powerlifting meets, or maybe even saw her give you a red light while competing.`,
 			about2:
 				`Lindsay has been powerlifting for about 9 years. She loves everything about powerlifting - from the community to the volunteering. 
 				If you don't see her at the gym, she is probably at home baking something. Married to her husband, Curt, for 13 years, she has 3 daughters: Remi, Erin, and Lily!`,
-			about3:
-				`If you don't see her at the gym, she is probably at home baking something. Married to her husband, Curt, for 13 years, she has 3 daughters: Remi, Erin, and Lily!`,
+			about3: '',
 		},
 		{
 			img: austin,
 			name: 'Austin Flynn',
 			position: 'Media',
-			about: `You've probably seen him either with a camera, barbell, or a tool in his hands, maybe even all three at once! Austin has been in the powerlifting community since 2016, when his lifting career began at the YMCA. He has been professionally capturing photos for just over 5 years and working on videography for almost 2 years.`,
+			about: `You've probably seen him either with a camera, barbell, or some tools on hand, maybe even all three at once! Austin has been in the powerlifting community since 2016, when his lifting career began at the YMCA. He has been professionally capturing photos for just over 5 years and working on videography for almost 2 years.`,
 			about2: `Happily engaged and a fur dad of 4, Austin spends his time developing his craft, finding new places to eat, and spending time with his loved ones! Anytime you need a resource to capture and create the next level of content for your social media, stop by and have a chat with him or send him a DM on instagram!`
 		},
 		{
