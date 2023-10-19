@@ -1,6 +1,6 @@
 button {
 	min-width: 120px;
-	padding: 5%;
+	padding: 0.5rem;
 	border: solid 1px white;
 	border-radius: 18px !important;
 	transition: 0.5s ease;

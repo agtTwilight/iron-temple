@@ -10,13 +10,18 @@
 	src: local("MK3-ExtraLight"), url("../fonts/Mk3-ExtraLight.otf") format("opentype");
 }
 
+@font-face {
+	font-family: "Exo2";
+	src: local("Exo2"), url("../fonts//Exo2.ttf");
+}
+
 body {
 	margin: 0;
 	font-family: "MK3-Medium";
 }
 
 p {
-	font-family: "MK3-ExtraLight";
+	font-family: "Exo2";
 }
 
 code {
