@@ -7,12 +7,16 @@
 
 @font-face {
 	font-family: "MK3-ExtraLight";
-	src: local("MK3-ExtraLight"), url("../fonts/MK3-ExtraLight.otf") format("opentype");
+	src: local("MK3-ExtraLight"), url("../fonts/Mk3-ExtraLight.otf") format("opentype");
 }
 
 body {
 	margin: 0;
 	font-family: "MK3-Medium";
+}
+
+p {
+	font-family: "MK3-ExtraLight";
 }
 
 code {
