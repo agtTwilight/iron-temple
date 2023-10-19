@@ -2,6 +2,12 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+
+// import eleikoBar from '../../assets/images/eleiko-bar.jpg';
+// import eleikoBench from '../../assets/images/eleiko-pad.jpg';
+// import eleikoPlates from '../../assets/images/eleiko-plates.jpg';
+// import eleikoRack from '../../assets/images/eleiko-rack.jpg';
+
 import Carousel from 'react-bootstrap/Carousel';
 import { CarouselItem } from 'react-bootstrap';
 import './style.css';

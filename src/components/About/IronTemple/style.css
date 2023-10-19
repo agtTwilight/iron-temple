@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .carousel-img-about {
@@ -27,9 +27,9 @@
     justify-content: center;
 }
 
-#next-text {
+/* #next-text {
     font-size: 1.15rem;
-}
+} */
 
 /* @media (max-width: 768px) {
     #about-iron-temple div {
