@@ -11,7 +11,10 @@ export const TeamMemberProfile = (props) => {
 			></img>
 			<section>
 				<h2 className="team-member-info">
-					<strong>{`${props.position.toUpperCase()} - ${props.name.toUpperCase()}`}</strong>
+					{`${props.position.toUpperCase()}:`}
+				</h2>
+				<h2 className="team-member-info">
+					{`${props.name.toUpperCase()}`}
 				</h2>
 				<br></br>
 				<p className="team-member-description">{props.about}</p>
