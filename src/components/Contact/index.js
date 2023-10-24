@@ -1,6 +1,6 @@
-import emailjs from '@emailjs/browser';
-import React, { useRef } from 'react';
-import './style.css';
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
+import "./style.css";
 
 export const Contact = () => {
 	const form = useRef();
@@ -8,16 +8,11 @@ export const Contact = () => {
 	const sendEmail = (e) => {
 		e.preventDefault();
 		emailjs
-			.sendForm(
-				'service_zo7n8zv',
-				'template_3qonnuo',
-				form.current,
-				'qAGcWm6fIZZLN4Dsa'
-			)
+			.sendForm("service_rtikkq5", "template_jjytuhz", form.current, "gOwiPuOJ9RFDCKSh4")
 			.then(
 				(result) => {
 					console.log(result.text);
-					console.log('message sent');
+					console.log("message sent");
 					e.target.reset();
 				},
 				(error) => {
@@ -34,23 +29,14 @@ export const Contact = () => {
 					<h2>Send us a message!</h2>
 				</section>
 				<section id="contact-inputs">
-					<input
-						id="input-name"
-						type="text"
-						name="user_name"
-						placeholder="Your Name"
-					/>
+					<input id="input-name" type="text" name="user_name" placeholder="Your Name" />
 					<input
 						id="input-email"
 						type="email"
 						name="user_email"
 						placeholder="Your Email"
 					/>
-					<textarea
-						id="input-message"
-						name="message"
-						placeholder="Your Message"
-					/>
+					<textarea id="input-message" name="message" placeholder="Your Message" />
 				</section>
 				<input id="contact-btn" type="submit" value="Send" />
 			</form>
