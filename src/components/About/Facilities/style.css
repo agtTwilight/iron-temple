@@ -1,7 +1,7 @@
 .equipment-header {
     display: flex;
     justify-content: flex-start;
-    margin-top: 1.75rem;
+    margin-top: 1rem;
     font-size: 2.25rem;
 }
 
@@ -10,4 +10,23 @@ ul {
 }
 li {
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 990px) {
+    .equipment-header {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+    li {
+        font-size: 1.25rem;
+    }
+}
+@media screen and (max-width: 770px) {
+    .equipment-header {
+        font-size: 1.5rem;
+    }
+    li {
+        font-size: 1.15rem;
+    }
 }

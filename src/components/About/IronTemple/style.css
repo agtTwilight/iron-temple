@@ -1,26 +1,60 @@
 #about-iron-temple {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 .carousel-img-about {
-	width: 400px;
-	border-radius: 16px;
+    width: 400px;
+    border-radius: 16px;
 }
 
 .carousel-indicators {
-	display: none;
+    display: none;
 }
 
 #about-buttons {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
-	justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
 
 #about-text {
-	text-align: left;
+    text-align: left;
+}
+
+@media screen and (max-width: 1400px) {
+    #about-text {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #about-text {
+        font-size: 1.05rem;
+    }
+    .carousel-img-about {
+        width: 375px;
+    }
+    #about-iron-temple {
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width: 770px) {
+    #about-text {
+        font-size: 1.1rem;
+    }
+    .carousel-img-about {
+        width: 350px;
+    }
+    #about-iron-temple {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    #about-text {
+        font-size: 1rem;
+    }
 }
