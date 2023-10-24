@@ -1,29 +1,31 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"); */
 
 @font-face {
-	font-family: "MK3-Medium";
-	src: local("MK3-Medium"), url("../fonts/Mk3-Medium.otf") format("opentype");
+    font-family: "MK3-Medium";
+    src: local("MK3-Medium"), url("../fonts/Mk3-Medium.otf") format("opentype");
 }
 
 @font-face {
-	font-family: "MK3-ExtraLight";
-	src: local("MK3-ExtraLight"), url("../fonts/Mk3-ExtraLight.otf") format("opentype");
+    font-family: "MK3-ExtraLight";
+    src: local("MK3-ExtraLight"),
+        url("../fonts/Mk3-ExtraLight.otf") format("opentype");
 }
 
 @font-face {
-	font-family: "Exo2";
-	src: local("Exo2"), url("../fonts//Exo2.ttf");
+    font-family: "Exo2";
+    src: local("Exo2"), url("../fonts//Exo2.ttf");
 }
 
 body {
-	margin: 0;
-	font-family: "MK3-Medium";
+    margin: 0;
+    font-family: "MK3-Medium";
 }
 
 p {
-	font-family: "Exo2";
+    font-family: "Exo2";
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
 }
