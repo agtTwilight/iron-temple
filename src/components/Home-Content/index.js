@@ -1,11 +1,17 @@
+import { useState, useEffect } from 'react'
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import "./style.css";
 
 const HomeContent = () => {
+    const [width, setWidth] = useState(window.innerWidth)
+
+    window.addEventListener('resize', function (e) {
+        setWidth(window.innerWidth)
+    })
     return (
-        <Container id="home-content">
+        <Container className={width >= 990 ? "home-content-fs" : "home-content-mobile"}>
             <Row>
                 <Col id="welcome-statement">
                     <p id="welcome-font">

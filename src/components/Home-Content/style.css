@@ -1,4 +1,4 @@
-#home-content {
+.home-content-fs {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -6,6 +6,13 @@
     transform: translateX(-50%);
     top: 0;
     display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.home-content-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 5%;
     margin-bottom: 5%;
 }
