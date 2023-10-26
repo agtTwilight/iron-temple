@@ -22,6 +22,8 @@ export const TeamMemberProfile = (props) => {
 				<p className="team-member-description">{props.about2}</p>
 				<br></br>
 				<p className="team-member-description">{props.about3}</p>
+				<br></br>
+				<p className="team-member-description">{props.contacts}</p>
 			</section>
 		</div>
 	);
