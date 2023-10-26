@@ -21,7 +21,7 @@ export const Footer = () => {
 					<h2>Hours</h2>
 					<p className="footer-content">
 						Monday - Sunday
-						<br></br>10:00 AM - 08:00 PM
+						<br></br>12:00 PM - 08:00 PM
 						<br></br>
 						<br></br>Members
 						<br></br>24/7 Access
