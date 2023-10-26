@@ -8,7 +8,7 @@
     border-radius: 16px;
 }
 
-.team-member-info {
+.team-member-info p {
     margin: 0 0;
 }
 
@@ -42,7 +42,6 @@
     }
     .team-member-description {
         font-size: 1.35rem;
-        margin: 0 0;
     }
     .team-member {
         margin: 5rem 5rem;

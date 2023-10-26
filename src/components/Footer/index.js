@@ -20,14 +20,16 @@ export const Footer = () => {
 					</a>
 					<h2>Hours</h2>
 					<p className="footer-content">
-						Monday - Sunday
+						Monday - Friday
 						<br></br>12:00 PM - 08:00 PM
 						<br></br>
 						<br></br>Members
 						<br></br>24/7 Access
 					</p>
-					{/* <h2>Phone</h2>
-					<p className="footer-content">(206) XXX-XXXX</p> */}
+					<h2>Phone</h2>
+					<a href="tel:253-732-0592" className="footer-content" id="phone-number">(253) 732-0592</a>
+					<br></br>
+					<br></br>
 					<a
 						href="https://www.instagram.com/theiron.temple/"
 						target="_blank"

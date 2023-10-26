@@ -40,6 +40,7 @@ export const Team = () => {
 			about: `Meghan is a board-certified Physical Therapist, Athletic Trainer, Certified Strength & Conditioning Specialist, and the owner of Impetus Movement and Rehab, PLLC. Dr. Meghan received her Doctorate of Physical Therapy from Baylor Univeristy and Masters of Athletic Training from the University of Arkansas. Meghan has always had a movement and load-focused approach to rehabilitation and firmly believes rehab should be considered "training with injury".`,
 			about2: `Her own movement practice is influenced by sports performance, corrective exercise, bodybuilding, powerlifting, hardstyle kettlebell training, and calisthenics. She has a strong passion for educating and empowering her clients to feel strong, capable, and confident in their bodies throughout their lifespan.`,
 			about3: `For any serious inquiries or scheduling, please feel free to contact me either through email, phone call, or text.`,
+			contacts: `Email: megsi072@gmail.com | Phone: (509) 339-5524`,
 		},
 	];
 	return (
@@ -54,6 +55,7 @@ export const Team = () => {
 						about={teamMember.about}
 						about2={teamMember.about2}
 						about3={teamMember.about3}
+						contacts={teamMember.contacts}
 					/>
 				);
 			})}

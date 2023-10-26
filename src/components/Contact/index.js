@@ -26,7 +26,7 @@ export const Contact = () => {
 		<section id="form-ref" ref={refOne}>
 			<form id="contact-form" ref={form} onSubmit={sendEmail}>
 				<section id="contact-top">
-					<h2>Send us a message!</h2>
+					<h2>Set up an appointment to visit!</h2>
 				</section>
 				<section id="contact-inputs">
 					<input id="input-name" type="text" name="user_name" placeholder="Your Name" />
