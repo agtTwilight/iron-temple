@@ -18,7 +18,7 @@ export const Footer = () => {
 							14205 Meridian Ave E <br></br>Puyallup, WA 98373
 						</p>
 					</a>
-					<h2>Hours</h2>
+					<h2>Staff Hours</h2>
 					<p className="footer-content">
 						Monday - Friday
 						<br></br>12:00 PM - 08:00 PM

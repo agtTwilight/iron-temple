@@ -14,7 +14,7 @@ export const Team = () => {
 			img: wascarAndCydnee,
 			name: "Wascar Carpio & Cydnee Carpio",
 			position: "Owners",
-			about: `Introducing the owners of Iron Temple, Wascar is the 2023 IPF World Champion in the 130lb/59kg weight class. He currently holds the second highest total ever completed in the world for that weight class. Carpio has been powerlifting for 3 years now and has developed a passion for powerlifting and developing his personal health and fitness.`,
+			about: `Introducing the owners of Iron Temple, Wascar is the 2023 IPF World Champion in the 130lb/59kg weight class. He currently holds the second highest total ever completed in the world for that weight class. Wascar has been powerlifting for 3 years now and has developed a passion for powerlifting and developing his personal health and fitness.`,
 			about2: `Wascar is married to his beautiful wife, Cydnee, and has a healthy 2 year old boy! Outside of powerlifting, Wascar loves the outdoors which includes hiking, camping, and going on walks!`,
 		},
 		{
