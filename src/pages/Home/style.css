@@ -14,6 +14,10 @@ video {
     background-color: #01090b;
 }
 
+/* .mobile-background{
+    background-image: ;
+} */
+
 .overlay {
     position: absolute;
     top: 4rem;
