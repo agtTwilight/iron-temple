@@ -27,7 +27,7 @@ export const Footer = () => {
 						<br></br>24/7 Access
 					</p>
 					<h2>Phone</h2>
-					<a href="tel:253-732-0592" className="footer-content" id="phone-number">(253) 732-0592</a>
+					<a href="tel:253-328-1742" className="footer-content" id="phone-number">(253) 328-1742</a>
 					<br></br>
 					<br></br>
 					<a
